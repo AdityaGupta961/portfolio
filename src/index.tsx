@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import { routing } from './routes';
 import { Navbar } from './components/Navbar';
+import { Footer } from './components/Footer';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -12,8 +13,11 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-    <Navbar/>
-    {routing}
+    <div className='flex flex-col min-h-screen'>
+      <Navbar/>
+      {routing}
+      <Footer/>
+    </div>
     </BrowserRouter>
   </React.StrictMode>
 );
