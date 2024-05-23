@@ -24,17 +24,17 @@ export const Navbar = () => {
                         <ul className="flex space-x-2 lg:space-x-6 xl:space-x-10 items-center">
                             <li className="hover:scale-110 transition-all">
                                 <NavLink className={({ isActive, isPending }) =>
-                                                        isPending ? "pending" : isActive ? " hover:bg-slate-200 rounded-lg decoration-slate-900 underline-offset-8 px-5 py-3 underline decoration-2" : "hover:bg-slate-200 px-5 py-3 rounded-lg"
+                                                        isPending ? "pending" : isActive ? " hover:bg-slate-100 rounded-lg decoration-slate-900 underline-offset-8 px-5 py-3 underline decoration-2" : "hover:bg-slate-100 px-5 py-3 rounded-lg"
                                                     } to={'/'}>Home</NavLink>
                             </li>
                             <li className="hover:scale-110 transition-all">
                                 <NavLink className={({ isActive, isPending }) =>
-                                                        isPending ? "pending" : isActive ? "hover:bg-slate-200 px-5 py-3 rounded-lg underline decoration-slate-900 decoration-2 underline-offset-8" : "hover:bg-slate-200 px-5 py-3 rounded-lg"
+                                                        isPending ? "pending" : isActive ? "hover:bg-slate-100 px-5 py-3 rounded-lg underline decoration-slate-900 decoration-2 underline-offset-8" : "hover:bg-slate-100 px-5 py-3 rounded-lg"
                                                     } to={'/about'}>About</NavLink>
                             </li>
                             <li className="hover:scale-110 transition-all">
                                 <NavLink className={({ isActive, isPending }) =>
-                                                        isPending ? "pending" : isActive ? "hover:bg-slate-200 px-5 py-3 rounded-lg underline decoration-slate-900 decoration-2 underline-offset-8" : "hover:bg-slate-200 px-5 py-3 rounded-lg"
+                                                        isPending ? "pending" : isActive ? "hover:bg-slate-100 px-5 py-3 rounded-lg underline decoration-slate-900 decoration-2 underline-offset-8" : "hover:bg-slate-100 px-5 py-3 rounded-lg"
                                                     } to={'/projects'}>Projects</NavLink>
                             </li>
                             <a href="AdityaGuptaResume.pdf" download className="hover:scale-110 transition-all flex space-x-2 bg-black text-white px-5 py-2 rounded-xl">
