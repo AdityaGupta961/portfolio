@@ -41,7 +41,7 @@ export const SkillsCarousel = () => {
             <div className="carousel-container">
                 <Carousel
                     responsive={responsive}
-                    //ssr={true} // means to render carousel on server-side.
+                    ssr={true} // means to render carousel on server-side.
                     infinite={true}
                     autoPlay={true}
                     autoPlaySpeed={1500}
@@ -49,7 +49,7 @@ export const SkillsCarousel = () => {
                     transitionDuration={500}
                     containerClass="carousel-container"
                     itemClass="carousel-item-padding-40-px"
-                    removeArrowOnDeviceType={["tablet", "mobile"]}
+                    removeArrowOnDeviceType={["tablet", "mobile","desktop"]}
                 >
                     <BiLogoJavascript/>
                     <BiLogoTypescript/>
