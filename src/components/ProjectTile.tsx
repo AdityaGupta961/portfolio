@@ -21,7 +21,7 @@ export const ProjectTile = ({
     }:
         ProjectProps) => {
     return (
-        <div className="space-y-6 xl:flex xl:space-x-6 w-4/5 md:w-3/5 mx-auto shadow-2xl hover:border-2 hover:border-black hover:scale-105 transition-all p-10 rounded-xl">
+        <div className="space-y-6 xl:flex xl:space-x-6 w-4/5 md:w-3/5 mx-auto shadow-2xl hover:border-2 hover:border-black hover:scale-105 transition-transform p-10 rounded-xl">
             <div className="flex flex-shrink-0 space-y-4 flex-col basis-2/5 text-center lg:text-left items-center lg:items-start">
                 <h1 className="text-4xl font-bold">{title}</h1>
                 <p className=" text-blue-500">{stack}</p>

@@ -1,7 +1,7 @@
 export const Footer = () => {
     return (
         <footer className="mt-auto justify-end">
-            <ul className=" bg-slate-50 text-center space-y-5 pt-8 md:pt-3 pb-8 px-4 md:flex md:justify-center md:items-end md:space-x-6 md:mx-auto">
+            <ul className=" bg-slate-100 text-center space-y-5 pt-8 md:pt-3 pb-8 px-4 md:flex md:justify-center md:items-end md:space-x-6 md:mx-auto">
                 <li>
                     <a className="flex justify-center items-center space-x-2" href="https://www.linkedin.com/in/adityagupta961/" target="_blank" rel="noreferrer noopener">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="blue" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
