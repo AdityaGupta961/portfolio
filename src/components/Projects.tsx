@@ -5,6 +5,14 @@ export const Projects = memo(() => {
 
     const projectsData = [
         {
+            title: "Real Estate Landing Page", 
+            stack: "React, TailwindCSS, Typescript",
+            description: "Experience real estate like never before with our impeccably designed landing page, featuring a stunning, seamless layout and captivating animations.",
+            imagePath: "realestate.png",
+            githubUrl:"",
+            liveURL: "https://adityaguptarealestate.vercel.app"
+        },
+        {
             title: "AI Meet - Chat with AI and Smith", 
             stack: "Flutter, Firebase, Sqflite",
             description: "An AI chat app with OpenAI API and Firebase, featuring image recognition, customizable avatars, and efficient local database management, achieving 10,000+ downloads.",
